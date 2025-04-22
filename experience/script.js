@@ -68,7 +68,7 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Experience | Portfolio Avinash Dhanuka";
-        $("#favicon").attr("href","/assests/images/favicon.png");
+        $("#favicon").attr("href","/assests/images/favicon2.jpg");
     }
     else {
         document.title = "Come Back To Portfolio";
