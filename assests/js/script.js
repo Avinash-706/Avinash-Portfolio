@@ -142,9 +142,9 @@ $("#contact-form").submit(function (event) {
     //event.preventdefault();
     
     event.preventDefault();
-    emailjs.init("3EvNyKZKcMLcyTKQN");
+    emailjs.init("XtsX58k1Pp56-m8ob");
     console.log("form submitted");
-    emailjs.sendForm('service_xol5sv7', 'template_133u14v', '#contact-form')
+    emailjs.sendForm('service_zgq58qi', 'template_hl632gn', '#contact-form')
         .then(function (response) {
             console.log('SUCCESS!', response.status, response.text);
             document.getElementById("contact-form").reset();
