@@ -166,9 +166,9 @@ fetchData().then(data => {
     showSkills(data);
 });
 
-$("#contact-form").submit(function (event) {
-    //event.preventdefault();
-    
+
+$("#contact-form").submit(function (event) {  
+    document.getElementById("timestamp").value = new Date().toLocaleString();  
     event.preventDefault();
     emailjs.init("XtsX58k1Pp56-m8ob");
     console.log("form submitted");

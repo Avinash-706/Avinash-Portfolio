@@ -711,15 +711,19 @@
           <img draggable="false" src="./assests/images/contact1.png" alt="">
         </div>
         <form id="contact-form">
-
+          <input type="hidden" name="timestamp" id="timestamp">
           <div class="form-group">
             <div class="field">
               <input type="text" name="name" placeholder="Name" required>
               <i class='fas fa-user'></i>
             </div>
             <div class="field">
-              <input type="email" name="email" placeholder="Email" required>
+              <input type="email" name="email_id" placeholder="Email" required />
               <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="subject" placeholder="Subject" required>
+              <i class='fas fa-heading'></i>
             </div>
             <div class="field">
               <input type="text" name="phone" placeholder="Phone">
