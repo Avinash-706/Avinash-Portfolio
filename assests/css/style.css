@@ -847,6 +847,7 @@ header .navbar ul li a:hover {
   padding-left: 1.5rem;
 }
 .experience .content .desc {
+  margin-top: 8px;
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -856,6 +857,10 @@ header .navbar ul li a:hover {
 }
 .experience .content .desc p {
   font-size: 1.2rem;
+}
+
+.experience .content .desc p:nth-of-type(2) {
+  padding-top: 8px;
 }
 /* view all button */
 .morebtn {
