@@ -17,15 +17,26 @@ $(document).ready(function(){
     });
 });
 
-document.addEventListener('visibilitychange',
-function(){
-    if(document.visibilityState === "visible"){
+
+document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState === "visible") {
         document.title = "Projects | Portfolio Avinash Dhanuka";
-        $("#favicon").attr("href","/assests/images/favicon2.jpg");
-    }
-    else {
+
+        document.querySelectorAll('link[rel="icon"]').forEach(function(link) {
+            if (link.getAttribute('sizes') === "32x32") {
+                link.setAttribute("href", "/assests/images/favicon-32x32.png"); 
+            } else if (link.getAttribute('sizes') === "16x16") {
+                link.setAttribute("href", "/assests/images/favicon-16x16.png"); 
+            } else if (link.getAttribute('rel') === "apple-touch-icon") {
+                link.setAttribute("href", "/assests/images/apple-touch-icon.png"); 
+            }
+        });
+    } else {
         document.title = "Come Back To Portfolio";
-        
+
+        document.querySelectorAll('link[rel="icon"], link[rel="apple-touch-icon"]').forEach(function(link) {
+            link.setAttribute("href", "/assests/images/favicon2.png?v=1"); // Cache busting with version
+        });
     }
 });
 
