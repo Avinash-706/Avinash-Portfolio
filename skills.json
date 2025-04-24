@@ -4,8 +4,8 @@
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
     {
-        "name": "GCP",
-        "icon": "https://img.icons8.com/color/48/000000/google-cloud-platform.png"
+        "name": "DSA",
+        "icon": "./assests/images/datastructure.png"
     },
     {
         "name": "HTML5",
@@ -18,10 +18,6 @@
     {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
     },
     {
         "name": "MongoDB",
@@ -44,20 +40,8 @@
         "icon": "https://img.icons8.com/color/48/000000/c.png"
     },
     {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
-    },
-    {
         "name": "Netlify",
         "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "Figma",
-        "icon": "https://img.icons8.com/?size=51&id=nMeAkcoE7aTF&format=png"
     },
     {
         "name": "GitHub",
@@ -66,5 +50,9 @@
     {
         "name": "Team Work",
         "icon": "https://img.icons8.com/color/48/000000/teamwork.png"
-    }   
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "./assests/images/bootstrap.png"
+    }  
 ]
