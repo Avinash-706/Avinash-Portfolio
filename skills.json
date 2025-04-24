@@ -20,6 +20,10 @@
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
+        "name": "Bootstrap",
+        "icon": "./assests/images/bootstrap.png"
+    },
+    {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
@@ -50,9 +54,5 @@
     {
         "name": "Team Work",
         "icon": "https://img.icons8.com/color/48/000000/teamwork.png"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "./assests/images/bootstrap.png"
-    }  
+    }
 ]
